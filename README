@@ -3,3 +3,7 @@ Add To Pinboard
 
 
 This script, coupled with Adium (http://adium.im) and the Pipe Event Plugin (http://jcs.org/notaweblog/2010/12/28/pipe_event_plugin_for_adium/) will add URLs found in messages to Pinboard.in (as long as you have a Pinboard account). It will add the title of the page, and add 2 tags - im and a tag for the user who sent the message.
+
+Make sure that the script is executable
+
+You can test the script with something like : echo "testing http://choppingblock.com" | ./pinboardurl.rb eric
